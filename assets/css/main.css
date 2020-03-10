@@ -687,23 +687,28 @@ hr {
 /* ==========================================================================
 3. Hero Area
 ========================================================================== */
-#hero-area {
+#home {
   color: #fff;
   overflow: hidden;
   position: relative;
   background: #f8f9fb;
+  background-image: url(http://demo.themecanyon.org/transpro/images/slide01.jpg); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  margin-top: 130px;
 }
 
-#hero-area .contents {
+#home .contents {
   padding: 170px 0px 50px;
 }
 
-#hero-area .contents h5 {
+#home .contents h5 {
   font-size: 50px;
 }
 
-#hero-area .contents .head-title {
-  color: #585b60;
+#home .contents .head-title {
+  color: #fff;
   font-size: 34px;
   line-height: 48px;
   font-weight: 700;
