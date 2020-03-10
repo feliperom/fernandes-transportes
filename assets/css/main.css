@@ -109,7 +109,7 @@ ul li, ol li {
 
 .btn-common:hover {
   color: #fff;
-  background-color: #4297e0;
+  background-color: #FFC703;
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
   transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
@@ -345,7 +345,7 @@ hr {
   padding: 15px;
 }
 
-.client-item-wrapper img {
+/* .client-item-wrapper img {
   opacity: 0.5;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
@@ -359,7 +359,7 @@ hr {
   opacity: 1;
   filter: grayscale(0%);
   -webkit-filter: grayscale(0%);
-}
+} */
 
 /* Services Item */
 .services-item {
@@ -498,7 +498,7 @@ hr {
 }
 
 .top-nav-collapse.navbar {
-  padding: 25px 0;
+  padding: 15px 0;
 }
 .top-nav-collapse.navbar img {
   width: 220px;
