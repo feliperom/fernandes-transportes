@@ -491,7 +491,7 @@ hr {
 }
 
 .navbar {
-  padding: 0;
+  padding: 15px 0;
 }
 .logo {
   width: 75%;
@@ -692,15 +692,15 @@ hr {
   overflow: hidden;
   position: relative;
   background: #f8f9fb;
-  background-image: url(http://demo.themecanyon.org/transpro/images/slide01.jpg); 
+  background-image: url(../img/slide01.jpg); 
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
-  margin-top: 130px;
+  margin-top: 120px;
 }
 
 #home .contents {
-  padding: 170px 0px 50px;
+  padding: 100px 0px 50px;
 }
 
 #home .contents h5 {
