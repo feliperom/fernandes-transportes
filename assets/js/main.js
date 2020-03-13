@@ -45,10 +45,10 @@
 
      /* Testimonials Carousel 
     ========================================================*/
-    var owl = $("#testimonials");
+    var owl = $("#carousel");
       owl.owlCarousel({
         loop: true,
-        nav: false,
+        nav: true,
         dots: false,
         center: true,
         margin: 15,
@@ -75,6 +75,19 @@
             }
         }
       });  
+
+      $(".owl-carousel").owlCarousel({
+        navigation : true,
+        loop: true,
+        nav: true,
+        dots: false,
+        center: true,
+        margin: 15,
+        slideSpeed: 1000,
+        stopOnHover: true,
+        autoPlay: true,
+        autoWidth: false,
+      });
 
      /*  Slick Slider
     ========================================================*/
