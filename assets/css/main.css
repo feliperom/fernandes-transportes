@@ -670,6 +670,8 @@ hr {
   }
   .slicknav_menu {
     display: block;
+    position: relative;
+    z-index: 9;
   }
   .slicknav_nav .active a {
     background: #E91E63;
