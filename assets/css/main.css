@@ -1335,3 +1335,41 @@ hr {
   border-radius: 3px;
   text-align: center;
 }
+
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.img-box {
+  width: 400px;
+  height: 400px;
+  display: flex;
+}
+.img-box img {
+  object-fit: cover;
+}
+
+.owl-prev {
+  left: -45px;
+  position: absolute;
+}
+.owl-theme .owl-nav [class*='owl-']:hover {
+  background: transparent!important;
+}
+.owl-theme .owl-nav [class*='owl-']:hover span {
+  color: #FFC703;
+}
+.owl-prev span {
+  font-size: 100px;
+  color: #112A83;
+}
+.owl-next {
+  right: -45px;
+  position: absolute;
+}
+.owl-next span {
+  font-size: 100px;
+  color: #112A83;
+}

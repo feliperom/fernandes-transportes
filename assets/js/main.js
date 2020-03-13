@@ -43,65 +43,34 @@
 
     wow.init();
 
-     /* Testimonials Carousel 
+     /* Photos Carousel 
     ========================================================*/
-    var owl = $("#carousel");
-      owl.owlCarousel({
-        loop: true,
-        nav: true,
-        dots: false,
-        center: true,
-        margin: 15,
-        slideSpeed: 1000,
-        stopOnHover: true,
-        autoPlay: true,
-        responsiveClass: true,
-        responsiveRefreshRate: true,
-        responsive : {
-            0 : {
-                items: 1
-            },
-            768 : {
-                items: 1
-            },
-            960 : {
-                items: 1
-            },
-            1200 : {
-                items: 1
-            },
-            1920 : {
-                items: 1
-            }
-        }
-      });  
-
-      $(".owl-carousel").owlCarousel({
-        navigation : true,
-        loop: true,
-        nav: true,
-        dots: false,
-        center: true,
-        margin: 15,
-        slideSpeed: 1000,
-        stopOnHover: true,
-        autoPlay: true,
-        autoWidth: false,
-      });
+    $(".owl-carousel").owlCarousel({
+      navigation : true,
+      loop: true,
+      nav: true,
+      dots: false,
+      center: true,
+      margin: 10,
+      slideSpeed: 1000,
+      stopOnHover: true,
+      autoPlay: true,
+      autoWidth: true,
+    });
 
      /*  Slick Slider
     ========================================================*/
     $('.slider-center').slick({
       centerMode: true,
-      centerPadding: '60px',
-      slidesToShow: 3,
+      centerPadding: '15px',
+      slidesToShow: 5,
       responsive: [
         {
           breakpoint: 768,
           settings: {
             arrows: false,
             centerMode: true,
-            centerPadding: '40px',
+            centerPadding: '15px',
             slidesToShow: 3
           }
         },
@@ -110,7 +79,7 @@
           settings: {
             arrows: false,
             centerMode: true,
-            centerPadding: '40px',
+            centerPadding: '15px',
             slidesToShow: 1
           }
         }

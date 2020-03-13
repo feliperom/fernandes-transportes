@@ -4,21 +4,21 @@ $errorMSG = "";
 
 // NAME
 if (empty($_POST["name"])) {
-    $errorMSG = "Name is required ";
+    $errorMSG = "Por favor, digite seu nome ";
 } else {
     $name = $_POST["name"];
 }
 
 // EMAIL
 if (empty($_POST["email"])) {
-    $errorMSG .= "Email is required ";
+    $errorMSG .= "Por favor, digite seu e-mail ";
 } else {
     $email = $_POST["email"];
 }
 
 // MSG SUBJECT
 if (empty($_POST["msg_subject"])) {
-    $errorMSG .= "Subject is required ";
+    $errorMSG .= "Insira um assunto ";
 } else {
     $msg_subject = $_POST["msg_subject"];
 }
@@ -26,27 +26,27 @@ if (empty($_POST["msg_subject"])) {
 
 // MESSAGE
 if (empty($_POST["message"])) {
-    $errorMSG .= "Message is required ";
+    $errorMSG .= "Digite sua mensagem ";
 } else {
     $message = $_POST["message"];
 }
 
 
-$EmailTo = "email@gmail.com";
-$Subject = "New Message Received";
+$EmailTo = "feliperom87@gmail.com";
+$Subject = "Nova Mensagem Recebida através do site - fernandestransportes.com.br";
 
 // prepare email body text
 $Body = "";
-$Body .= "Name: ";
+$Body .= "Nome: ";
 $Body .= $name;
 $Body .= "\n";
-$Body .= "Email: ";
+$Body .= "E-mail: ";
 $Body .= $email;
 $Body .= "\n";
-$Body .= "Subject: ";
+$Body .= "Assunto: ";
 $Body .= $msg_subject;
 $Body .= "\n";
-$Body .= "Message: ";
+$Body .= "Mensagem: ";
 $Body .= $message;
 $Body .= "\n";
 
@@ -58,7 +58,7 @@ if ($success && $errorMSG == ""){
    echo "success";
 }else{
     if($errorMSG == ""){
-        echo "Something went wrong :(";
+        echo "Algo deu errado :(";
     } else {
         echo $errorMSG;
     }
